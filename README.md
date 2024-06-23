@@ -45,3 +45,7 @@ Skycast is a weather information website that provides detailed local weather fo
 
 - Ensure you have a valid OpenWeatherMap API key set in the environment variable `process.env.OPEN_WEATHER_MAP_KEY`.
 - The website is responsive and designed to work well on both mobile and desktop devices.
+
+
+#### License
+- The project is under license from MIT. You can access it (here)[https://github.com/lnpotter/Skycast/blob/master/LICENSE]

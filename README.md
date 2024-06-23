@@ -48,4 +48,4 @@ Skycast is a weather information website that provides detailed local weather fo
 
 
 #### License
-- The project is under license from MIT. You can access it (here)[https://github.com/lnpotter/Skycast/blob/master/LICENSE]
+- The project is under license from MIT. You can access it [here](https://github.com/lnpotter/Skycast/blob/master/LICENSE)

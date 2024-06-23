@@ -1,0 +1,21 @@
+{
+  "name": "skycast",
+  "version": "1.0.0",
+  "description": "A simple weather website.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather",
+    "javascript",
+    "node",
+    "html",
+    "css"
+  ],
+  "author": "LordLucass",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

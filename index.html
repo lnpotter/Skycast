@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skycast</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Skycast</h1>
+            <p>Your local weather forecast</p>
+        </header>
+        <main>
+            <div class="search-box">
+                <input type="text" id="city-input" placeholder="Enter city name...">
+                <button id="search-button">Search</button>
+                <button id="location-button">Use my location</button>
+            </div>
+            <div class="weather-info" id="weather-info">
+                <h2 id="city-name"></h2>
+                <p id="temperature"></p>
+                <p id="weather-description"></p>
+                <p id="humidity"></p>
+                <p id="wind"></p>
+                <p id="sunrise"></p>
+                <p id="sunset"></p>
+                <img id="weather-icon" src="" alt="Weather Icon">
+            </div>
+            <div class="forecast-info" id="forecast-info">
+                <h2>Previsão para os próximos dias</h2>
+                <canvas id="forecast-chart"></canvas>
+            </div>
+            <div class="alert-info" id="alert-info">
+                <h2>Alertas Meteorológicos</h2>
+                <p id="alert-message"></p>
+            </div>
+            <div class="historical-info" id="historical-info">
+                <h2>Dados Históricos do Clima</h2>
+                <canvas id="historical-chart"></canvas>
+            </div>
+            <div class="map-info" id="map-info">
+                <h2>Mapas Meteorológicos</h2>
+                <iframe id="weather-map" src="" width="100%" height="450" style="border:0;"></iframe>
+            </div>
+        </main>
+        <footer>
+            <p>Powered by OpenWeatherMap API</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
